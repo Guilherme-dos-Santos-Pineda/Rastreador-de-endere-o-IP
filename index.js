@@ -5,12 +5,12 @@ var addresos = document.querySelector(".display-addres");
 var locationo = document.querySelector(".display-location");
 var timezones = document.querySelector(".display-timezone");
 var ispo = document.querySelector(".display-ISP");
-var url = 'https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_Xf4uZrHsHwfT9B6OOerIyXxu7qXdD&ipAddress=' + input.value;
+
 var a = 0
 botao.addEventListener("click",(e)=>{
     var lat
     var lng
-
+    var url = 'https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_Xf4uZrHsHwfT9B6OOerIyXxu7qXdD&ipAddress=' + input.value;
 
 
     fetch(url)

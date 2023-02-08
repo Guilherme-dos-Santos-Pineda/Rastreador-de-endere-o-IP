@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+  crossorigin=""/>
+  <script src="./index.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="title">
+      IP Address Tracker
+    </div>
+    <div class="IPeDados">
+      <div class="search">
+        <input class="search-val" type="text" placeholder="Search for any IP address or domain">
+        <div class="botao">
+          <img class="img" src="./images/icon-arrow.svg" alt="">
+        </div>
+      </div>
+      <div class="results">
+        <div class="all address">
+          IP Address
+          <div class="d display-addres">
+            192.212.174.101
+          </div>
+        </div>
+        <div class="all location">
+          Location
+          <div class="d display-location">
+            Brooklyn, NY 
+          </div>
+        </div>
+        <div class="all timezone">
+          Timezone
+          <div class="d display-timezone">
+            UTC -05:00
+          </div>
+        </div>
+        <div class="ISP">
+          ISP
+          <div class="d display-ISP">
+            SpaceX Starlink
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="map"></div>
+
+  
+
+  
+  
+  
+   
+  
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin="">
+</script>
+</body>
+</html>
